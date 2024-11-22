@@ -11,7 +11,8 @@ const CustomerReviews = () => {
         {reviews.map((review, index) =>
           <ReviewCard
             key={index} // This is one of those rare cases where passing the index as a key makes sense since everything in the review objects can be duplicated on a real live site. For example the same person can submit two reviews which would make these keys no longer unique.
-            imgURL={review.customerName}
+            imgURL={review.imgURL}
+            customerName={review.customerName}
             rating={review.rating}
             feedback={review.feedback}
           />
