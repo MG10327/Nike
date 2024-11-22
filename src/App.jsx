@@ -7,7 +7,7 @@ import Services from './sections/Services'
 import SpecialOffer from './sections/SpecialOffer'
 import Subscribe from './sections/Subscribe'
 import SuperQuality from './sections/SuperQuality'
-import Nav from "./sections/Nav"
+import Nav from "./components/Nav"
 
 const App = () => {
   return (
