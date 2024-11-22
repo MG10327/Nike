@@ -24,6 +24,7 @@ const SpecialOffer = () => {
           <Button label='Shop now' iconURL={arrowRight} />
           <Button
             label='Learn more'
+            iconURL={iconURL}
             backgroundColor='bg-white'
             borderColor='border-slate-gray'
             textColor='text-slate-gray'
